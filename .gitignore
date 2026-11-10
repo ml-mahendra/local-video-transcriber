@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+
+# Environments
+.env
+.venv/
+venv/
+env/
+conda-env/
+
+# IDE
+.vscode/
+.idea/
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Recordings and generated transcripts
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.wav
+*.mp3
+transcripts/
+outputs/
+
+# Whisper model weights
+*.pt
+*.pth
+
+# Logs
+*.log

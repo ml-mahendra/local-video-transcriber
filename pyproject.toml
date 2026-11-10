@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "local-video-transcriber"
+version = "0.1.0"
+description = "Local Whisper-based audio and video transcription into five formats"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["openai-whisper"]
+
+[project.scripts]
+local-transcribe = "local_video_transcriber.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
